@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>DAY6</title>
+        <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Yeseva+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <style>
+            body {
+                padding: 10px;
+                margin: 10px;
+                background-color: rgb(250, 239, 248);
+                box-sizing: border-box;
+                font-family: 'Yeseva One', cursive;;
+            }
+
+            p {
+                font-family: 'Source Sans Pro', sans-serif;
+            }
+
+            .menu-bar {
+                background-color: #faf2f9;
+                text-align: center;
+                border-style: double;
+            }
+
+            .menu-bar ul {
+                display: inline-flex;
+                list-style: none;
+                color: black; 
+            }
+            .menu-bar ul li {
+                width: 170px;
+                margin: 15px;
+                padding: 10px;
+            }
+
+            .menu-bar ul li a{
+                text-decoration: none;
+                color: black;
+            }
+
+            .active, .menu-bar ul li:hover{
+                background-color: #e0c1dd;
+                border-radius: 5px;
+                text-align: center;
+            }
+
+            .activetoo{
+                background-color: #c791c2;
+                border-radius: 5px;
+                text-align: center;
+            }
+
+            .menu-bar .fa{
+                margin-right: 8px;
+            }
+
+            .sub-menu-1 {
+                display: none;   
+            }
+
+            .menu-bar ul li:hover .sub-menu-1{
+                display: block;
+                position: absolute;
+                background-color: #c9b5c8;
+                font-family: 'Roboto Condensed', sans-serif;
+                font-size: 17px;
+            }
+
+            .menu-bar ul li:hover .sub-menu-1 ul {
+                display: block;
+                margin-left: -40px;
+                text-align: left;
+            }
+
+            .menu-bar ul li:hover .sub-menu-1 ul li{
+                width: 150px;
+                padding: 10px;
+                border-bottom: 1px dotted #fff;
+                background: transparent;
+                border-radius: 0;
+                text-align: left;
+            }
+
+            .menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+                border-bottom: none;
+            }
+
+            .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+                color:#a3679e;
+            }
+
+            h1{
+                font-family: 'Yeseva One', cursive;
+            }
+
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+
+            #main {
+                height: 937px;
+            }
+
+            #article {
+                width: 66%;
+                height: 937px;
+                float: left;
+            }
+            
+            #side {
+                width: 20%;
+                height: 937px;
+                float: left;
+            }
+
+            #sidetoo{
+                width: 13%;
+                height: 937px;
+                float: left;
+            }
+
+            #day6{
+                width: 50%;
+                display: inline-block;
+                vertical-align: middle;
+            }
+            
+            #song{
+                width: 50%;
+                position: absolute;
+                left: calc(50%);
+                left: 350px;
+                top: 468px;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="menu-bar">
+            <img src="logo.png" style="height: 50px; width: auto; bottom: -20px; position: relative;" alt="logo">
+            <ul>
+                <li class="active"><a href="index.html"><i class="fa fa-home"></i>Homepage</a>
+                <li class="activetoo"><a href="page2.html"><i class="fa fa-microphone"></i>About the Author</a></li>
+                <li class="active"><a href="page3.html"><i class="fa fa-microphone"></i>TWICE</a></li>
+                <li class="activetoo"><a href="page4.html"><i class="fa fa-microphone"></i>ITZY</a></li>
+                <li class="active"><a href="page5.html"><i class="fa fa-microphone"></i>DAY6</a></li>
+            </ul>
+        </div><br>
+
+        <a href="https://day6.jype.com/"><img src="day.png" style="height: 200px; width: auto;" class="center" alt="Day6 logo"></a>
+        <div id="main">
+            <div id="article">
+                <h1>DAY6</h1>
+                <blockquote><p style="text-indent: 50px;">DAY6 currently consists of 4 members: Sungjin, Young K, Wonpil, and Dowoon.
+                    The band debuted on September 7, 2015, under JYP Entertainment.
+                    On Dec. 31 of 2021, Jae terminated his contract with JYP then left the group on 1st of Jan. of 2022.</p></blockquote>
+                <h2>Who are the DAY6 members?</h2>
+                <div id="day6">
+                    <h3 style="text-indent: 20px;" id="sungjin">Sungjin</h3>
+                    <blockquote><p>Sungjin's birth name is Park Sung Jin. He is the leader and the rhythm guitarist and one of the main vocalists of DAY6. He was born on January 16, 1993 in Busan, South Korea. He was actually a member of the original formation of DAY6 known as 5LIVE but was changed to the name DAY6 because fans often compared them to the American band Maroon 5. It also makes him happy when Wonpil goes to sleep and doesn't talk to him because he doesn't know what to reply to Wonpil's weird questions ("Are you a bear?")</p></blockquote>
+                    
+                    <h3 style="text-indent: 20px;" id="young">Young K</h3>
+                    <blockquote><p>Young K's birth name is Kang Young Hyun while his English name is Brian Kang. He is the bassist and one of the main rappers and main vocalists of DAY6. He was born and raised on December 19, 1993 in Ilsan, South Korea but later moved to Toronto, Canada to attend high school. Just like Sungjin, he was also part of the original formation known as 5LIVE. A fun fact is that it makes him happy that Dowoon is taking vocal lessons.Lastly, he prefers to be called YoungK but everyone calls him Brian just to tease him.</p></blockquote>
+                    
+                    <h3 style="text-indent: 20px;" id="wonpil">Wonpil</h3>
+                    <blockquote><p>Wonpil's birth name is Kim Won Pil. He is the keyboardist, synthesizer, visual, and one of the main vocalists of DAY6. He was born on April 28, 1994 in Incheon, South Korea. He was also one of the founding members of 5LIVE. His hobby is collecting action figures. Moreover, he gets sad when Sungjin doesn't answer his questions like, "Are you a bear?" He also gets sad when he sees YoungK going to school regularly while doing the responsibilities of being an idol. Lastly, he really likes to cling with Dowoon because he wants a younger brother.</p></blockquote>
+                    
+                    <h3 style="text-indent: 20px;" id="dowoon">Dowoon</h3>
+                    <blockquote><p>Dowoon's birth name is Yoon Do Woon. He is the maknae, drummer, and one of the vocalists of DAY6. He was born on August 25, 1995 in Busan, South Korea. He also studied at Busan Arts College. The name 5LIVE had already been changed to DAY6 by the time Dowoon joined in 2015. He has been playing the drums since he was sixteen and is currently having vocal lessons. Most of the members find him the cutest among the group members. Moreover, his ears get really red when he's shy. Lastly, he gets mad at Wonpil for wanting to share the same bed.</p></blockquote>
+                </div>
+
+                <div id="song">
+                <h2>My favorite songs from DAY6</h2>
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/_Y5DOLJbmdU" title="[DAY6 - Time of Our Life] Comeback Stage | M COUNTDOWN 190718 EP.628"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px; margin-bottom: 10px; border: none;"></iframe><br>
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/hTVKf-wfZ9M" title="[DAY6 - I Smile] Comeback Stage | M COUNTDOWN 170608 EP.527"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px; margin-bottom: 10px; border: none;"></iframe><br>
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/siF3GM68IDE" title="DAY6 You Were Beautiful & Congratulations_ DAY6 2ND WORLD TOUR 'GRAVITY'" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px; margin-bottom: 10px; border: none;"></iframe><br>
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/RxkZQ4qUtwc" title="DAY6 WISH Live Acoustic Ver." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px; margin-bottom: 10px; border: none;"></iframe><br>
+                </div>
+            </div>
+            <div id="side">
+                <h1 class="center">Playlists</h1>
+                <iframe style="border-radius:12px; border: none;" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX3Ucx6LaTP5S?utm_source=generator" height="1000" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+                <h2 class="center">My Favorite</h2>
+                <iframe style="border-radius:12px; border: none;" src="https://open.spotify.com/embed/album/7cAFD2IBjYXaZr2bZdTTIf?utm_source=generator" height="280" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+
+            <div id="sidetoo">
+                <h1 class="center" style="left: 35px;position:relative">DAY6</h1>
+                <a href="#sungjin"><img src="sungjin.jpg" alt="Leader Sungjin" style="border-radius: 60px; object-fit: cover; object-position: 60% 20%; left: 30px; position: relative;" height="100" class="center"></a><br>
+                <a href="#young"><img src="youngk.jpg" alt="Young K" style="border-radius: 60px; object-fit: cover; object-position: 60% 20%; left: 30px; position: relative;" height="100" class="center"></a><br>
+                <a href="#wonpil"><img src="wonpil.jpg" alt="Wonpil" style="border-radius: 60px; object-fit: cover; object-position: 60% 20%; left: 30px; position: relative;" height="100" class="center"></a><br>
+                <a href="#dowoon"><img src="dowoon.jpg" alt="Dowoon" style="border-radius: 60px; object-fit: cover; object-position: 60% 20%; left: 30px; position: relative;" height="100" class="center"></a><br>
+                <h3 style="left: 30px; position: relative;">Credits to:</h3>
+                <a href="https://kprofiles.com/day6-members-profile/" style="text-decoration: none; color: rgb(141, 87, 141)"><p style="left: 30px; position: relative;">https://kprofiles.com/day6-members-profile/</p></a>
+            </div>
+        </div>
+    </body>
+</html>

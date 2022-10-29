@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Yeseva+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <title>LodiFinds</title>
+        <style>
+            body {
+                padding: 10px;
+                margin: 10px;
+                background-color: white;
+                box-sizing: border-box;
+                font-family: 'Yeseva One', cursive;
+            }
+
+            p {
+                font-family: 'Source Sans Pro', sans-serif;
+            }
+
+            .menu-bar {
+                background-color: #faf2f9;
+                text-align: center;
+                border-style: double;
+            }
+
+            .menu-bar ul {
+                display: inline-flex;
+                list-style: none;
+                color: black; 
+            }
+            .menu-bar ul li {
+                width: 170px;
+                margin: 15px;
+                padding: 10px;
+            }
+
+            .menu-bar ul li a{
+                text-decoration: none;
+                color: black;
+            }
+
+            .active, .menu-bar ul li:hover{
+                background-color: #e0c1dd;
+                border-radius: 5px;
+                text-align: center;
+            }
+
+            .activetoo{
+                background-color: #c791c2;
+                border-radius: 5px;
+                text-align: center;
+            }
+
+            .menu-bar .fa{
+                margin-right: 8px;
+            }
+
+            .sub-menu-1 {
+                display: none;   
+            }
+
+            .menu-bar ul li:hover .sub-menu-1{
+                display: block;
+                position: absolute;
+                background-color: #c9b5c8;
+                font-family: 'Roboto Condensed', sans-serif;
+                font-size: 17px;
+            }
+
+            .menu-bar ul li:hover .sub-menu-1 ul {
+                display: block;
+                margin-left: -40px;
+                text-align: left;
+            }
+
+            .menu-bar ul li:hover .sub-menu-1 ul li{
+                width: 150px;
+                padding: 10px;
+                border-bottom: 1px dotted #fff;
+                background: transparent;
+                border-radius: 0;
+                text-align: left;
+            }
+
+            .menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+                border-bottom: none;
+            }
+
+            .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+                color:#a3679e;
+            }
+
+            .container{
+                position: relative;
+                width: 1200px;
+                height: 300px;
+                margin: 70px auto;
+            }
+
+            .container .box {
+                position: relative;
+                width: calc(450px - 30px);
+                height: calc(470px - 30px);
+                background: #467A76;
+                float: left;
+                margin: 15px;
+                box-sizing: border-box;
+                overflow: hidden;
+                border-radius: 10px;
+            }
+
+            .container .box .title{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: #467A76;
+                transition: 0.5s;
+                z-index: 1;
+            }
+
+            .container .box:hover .title{
+                top: 20px;
+                left: calc(50% - 40px);
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+            }
+
+            .container .box .title .fa{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 80px;
+                transition: 0.5s;
+                color: #fff;
+            }
+
+            .container .box .content{
+                position: absolute;
+                top: 100px;
+                height: calc(100% - 100px);
+                text-align: center;
+                padding: 20px;
+                box-sizing: border-box;
+                transition: 0.5s;
+            }
+
+            .container .box:hover{
+                background-color: #E6FFF7;
+            }
+
+            .container .box .content h2{
+                margin: 0;
+                padding: 0;
+                color: rgb(0, 0, 0);
+            }
+
+            .container .box .content p{
+                margin: 0;
+                padding: 0;
+                color: rgb(0, 0, 0);
+                font-size: 17px;
+                text-align: left;
+                text-indent: 15px;
+            }
+
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="menu-bar">
+            <ul>
+                <li class="active"><a href="#"><i class="fa fa-home"></i>Homepage</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#fancams">Fancams</a></li>
+                            <li><a href="#idols">Favorite Idols</a></li>
+                            <li><a href="#songs">Favorite Songs</a></li>
+                        </ul>
+                    </div></li>
+                <li class="activetoo"><a href="page2.html"><i class="fa fa-microphone"></i>About the Author</a></li>
+                <li class="active"><a href="page3.html"><i class="fa fa-microphone"></i>TWICE</a></li>
+                <li class="activetoo"><a href="page4.html"><i class="fa fa-microphone"></i>ITZY</a></li>
+                <li class="active"><a href="page5.html"><i class="fa fa-microphone"></i>DAY6</a></li>
+            </ul>
+        </div><br>
+
+        <img src="logo.png" id="idols" class="center" style="height: auto; width: 350px" alt="logo">
+
+
+        <div class="container">
+            <div class="box" style="bottom: 50px; left: 10px;">
+                <div class="title"><i class="fa fa-user-circle" aria-hidden="true"></i></div>
+                <div class="content">
+                    <h2>LodiFinds</h2><br>
+                    <img src="jisung.png" style="width: 50%; height: 50%; float: right; position: relative; bottom: -140px;" alt="Jisung">
+                    <p style="width: 50%; word-spacing: 2px;">Good day! Glad to see you here at LodiFinds. Here, you can explore the vast field of talented idols in the K-POP world! At LodiFinds, we hope to define your standards and expectations about KPOP music, and hopefully encourage you to delve deeper on this music genre.</p><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="box" style="bottom: 420px; height: 210px; width: 700px;">
+                <div class="title"><i class="fa fa-volume-down" aria-hidden="true"></i></div>
+                <div class="content">
+                    <h2 style="margin-bottom: 2px;">Favorite Idols</h2>
+                    <p style="width: 100%; font-size: 15px;">In this website, you will also get to know my favorite idols and how my love grew for them through the years. Who knows? Maybe you'll be able to find your favorite idol with my help!</p><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="box" style="bottom: 560px; height: 210px; width: 700px; float: right; right: 20px;">
+                <div class="title"><i class="fa fa-microphone" aria-hidden="true"></i></div>
+                <div class="content">
+                    <h2 style="margin-bottom: 2px;">Favorite Songs</h2>
+                    <p style="width: 100%; font-size: 15px;">Furthermore, you can also get song recommendations from your one and only, ME! Don't worry, I'll give you varied enough options to find out your taste in music!</p><br>
+                </div>
+            </div>
+        </div>
+        <h1 id="fancams" style="text-align: center; position: relative; bottom: 680px; font-size: 40px; background-color: #f4daf2; border-top-style: double; border-style: double;">Fancams and Songs</h1>
+
+        <iframe width="300" height="300" src="https://www.youtube.com/embed/K6VwENaJnyM" title="4K 'Feel Special' (TWICE JEONGYEON FanCam) | @MCOUNTDOWN_2019.10.03" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; bottom: -415px; left: 190px; border-radius: 12px; border: none;"></iframe>
+        
+        <iframe width="300" height="300" src="https://www.youtube.com/embed/TDeP2mFv_Y0" title="'DOMINO' (Stray Kids HAN FanCam)@SBS Inkigayo_2021.09.26." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; bottom: -415px; left: 510px; border-radius: 12px; border: none;"></iframe>
+
+        <iframe width="300" height="300" src="https://www.youtube.com/embed/Md_Y3zF64u8" title="[MPD Fancam 4K] The Eve EXO Fancam @ M Countdown _170719" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; bottom: -740px; left: 190px; border-radius: 12px; border: none;"></iframe>
+
+        <iframe width="300" height="300" src="https://www.youtube.com/embed/CHEniEv841I" title="8K 'HOT' (SEVENTEEN FanCam) | @MCOUNTDOWN_2022.6.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; bottom: -740px; left: 510px; border-radius: 12px; border: none;"></iframe>
+
+        <iframe id="songs" style="border-radius:12px; position: absolute; bottom: -740px; left: 830px; border: none;" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWUoY6Ih7vsxr?utm_source=generator" width="496" height="625" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </body>
+</html>

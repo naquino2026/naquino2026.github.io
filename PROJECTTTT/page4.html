@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>ITZY</title>
+        <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Yeseva+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <style>
+            body {
+                padding: 10px;
+                margin: 10px;
+                background-color: rgb(250, 239, 248);
+                box-sizing: border-box;
+                font-family: 'Yeseva One', cursive;
+            }
+
+            p {
+                font-family: 'Source Sans Pro', sans-serif;
+            }
+
+            .menu-bar {
+                background-color: #faf2f9;
+                text-align: center;
+                border-style: double;
+            }
+
+            .menu-bar ul {
+                display: inline-flex;
+                list-style: none;
+                color: black; 
+            }
+            .menu-bar ul li {
+                width: 170px;
+                margin: 15px;
+                padding: 10px;
+            }
+
+            .menu-bar ul li a{
+                text-decoration: none;
+                color: black;
+            }
+
+            .active, .menu-bar ul li:hover{
+                background-color: #e0c1dd;
+                border-radius: 5px;
+                text-align: center;
+            }
+
+            .activetoo{
+                background-color: #c791c2;
+                border-radius: 5px;
+                text-align: center;
+            }
+
+            .menu-bar .fa{
+                margin-right: 8px;
+            }
+
+            .sub-menu-1 {
+                display: none;   
+            }
+
+            .menu-bar ul li:hover .sub-menu-1{
+                display: block;
+                position: absolute;
+                background-color: #c9b5c8;
+                font-family: 'Roboto Condensed', sans-serif;
+                font-size: 17px;
+            }
+
+            .menu-bar ul li:hover .sub-menu-1 ul {
+                display: block;
+                margin-left: -40px;
+                text-align: left;
+            }
+
+            .menu-bar ul li:hover .sub-menu-1 ul li{
+                width: 150px;
+                padding: 10px;
+                border-bottom: 1px dotted #fff;
+                background: transparent;
+                border-radius: 0;
+                text-align: left;
+            }
+
+            .menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+                border-bottom: none;
+            }
+
+            .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+                color:#a3679e;
+            }
+
+            h1{
+                font-family: 'Yeseva One', cursive;
+            }
+
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+
+            #main {
+                height: 937px;
+            }
+
+            #article {
+                width: 66%;
+                height: 937px;
+                float: left;
+            }
+            
+            #side {
+                width: 20%;
+                height: 937px;
+                float: left;
+            }
+
+            #sidetoo{
+                width: 13%;
+                height: 937px;
+                float: left;
+            }
+
+            #itzy{
+                width: 50%;
+                display: inline-block;
+                vertical-align: middle;
+            }
+            
+            #song{
+                width: 50%;
+                position: absolute;
+                left: 350px;
+                top: 465px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="menu-bar">
+            <img src="logo.png" style="height: 50px; width: auto; bottom: -20px; position: relative;" alt="logo">
+            <ul>
+                <li class="active"><a href="index.html"><i class="fa fa-home"></i>Homepage</a>
+                <li class="activetoo"><a href="page2.html"><i class="fa fa-microphone"></i>About the Author</a></li>
+                <li class="active"><a href="page3.html"><i class="fa fa-microphone"></i>TWICE</a></li>
+                <li class="activetoo"><a href="page4.html"><i class="fa fa-microphone"></i>ITZY</a></li>
+                <li class="active"><a href="page5.html"><i class="fa fa-microphone"></i>DAY6</a></li>
+            </ul>
+        </div><br>
+
+        <a href="https://itzy.jype.com/"><img src="itzy.png" style="height: 200px; width: auto;" class="center" alt="Itzy logo"></a>
+        <div id="main">
+            <div id="article">
+                <h1>ITZY</h1>
+                <blockquote><p style="text-indent: 50px;">ITZY is a 5-member girl group under JYP Entertainment. They consist of: Yeji, Lia, Ryujin, Chaeryeong and Yuna. They debuted on February 11, 2019 with their first single album "IT'z Different".</p></blockquote>
+                <h2>Who are the ITZY members?</h2>
+                <div id="itzy">
+                    <h3 style="text-indent: 20px;" id="yeji">Yeji</h3>
+                    <blockquote><p>Yeji's birth name is Hwang Ye ji and her English name is Lucy Hwang. She is the leader and one of the main dancers, lead vocalists, and sub-rappers of ITZY. She was born on Ma 26, 2000 in her hometown, Jeonju, South Korea. She became a trainee in JYP Entertainment in 2016 and trained for 3 years until her debut. She is also really close friends with AB6IX's Lee Daehwi. Lastly, fans often say that she looks like Stray Kids' Hyunjin and also (G)I-DLE'S Yuqi.</p></blockquote>
+                    
+                    <h3 style="text-indent: 20px;" id="lia">Lia</h3>
+                    <blockquote><p>Lia's birth name is Choi Ji Su while her English name is Julia Choi. She is one of the main vocalists and sub-rappers of ITZY. She was born on July 21, 2000 in her hometown, Incheon, South Korea. A fun fact about her is that Lia is actually the newest JYP trainee to debut. She also received vocal training at Dream Vocal Academy and was a former SM Entertainment trainee. Lastly, she has also stated that she is most comfortable with her co-member, Chaeryeong.</p></blockquote>
+                    
+                    <h3 style="text-indent: 20px;" id="ryujin">Ryujin</h3>
+                    <blockquote><p>Ryujin's birth name is Shin Ryu Jin while her English name is Joanne Shin. She is the center and one of the main rappers, lead dancers, and sub-vocalists of ITZY. She was born on April 17, 2001 in her hometown, Seoul, South Korea. Yang Hyun Suk also offered her to join YG but she decided to stay at JYP. She is also friends with Dreamcatcher;s Jiu and Elris' Bella. Lastly, her role model is Lee Hyori from Fin.K.L.</p></blockquote>
+                    
+                    <h3 style="text-indent: 20px;" id="chaeryeong">Chaeryeong</h3>
+                    <blockquote><p>Chaeryeong's birth name is Lee Chae Ryeong while her English name is Judy Lee. She is one of the main dancers, sub-vocalists, and sub-rappers of ITZY. She was born on June 5, 2001 in her hometown, Yongin, South Korea. She is actually IZ*ONE's Chaeyeon's sister and also has another younger sister by the name Chaemin. Her nickname in the group is "Chocolate Holic". She became a trainee in 2014 and trained for 5 years. She is also close with AB6IX's Lee Daehwi along with all the members of TWICE, Jeon Somi, and Fromis_9's Jiwon.</p></blockquote>
+                    
+                    <h3 style="text-indent: 20px;" id="yuna">Yuna</h3>
+                    <blockquote><p>Yuna's birth name is Shin Yu Na while her English name is Hussey Shin. She is the maknae & visual and one of the lead rappers, lead dancers, and sub-vocalists of ITZY. She was born on December 9, 2003 in her hometown, Suwon, South Korea. She also trained for 3 years in JYP Entertainment. Lastly, she is also the tallest member and is well-known to be extroverted.</p></blockquote>
+                </div>
+
+                <div id="song">
+                <h2>My favorite songs from ITZY</h2>
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/29I5YcbDn4E" title="[ITZY - DALLA DALLA] KPOP TV Show | M COUNTDOWN 190228 EP.608" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px; margin-bottom: 10px; border: none;"></iframe><br>
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/mBvdwhgyqVY" title="ITZY ICY Dance Practice" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px; margin-bottom: 10px; border: none;"></iframe><br>
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/UUUWIGx3hDE" title="ITZY WANNABE Performance Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px; margin-bottom: 10px; border: none;"></iframe><br>
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/mjrI9AxEGNY" title="Boys Like You" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px; margin-bottom: 10px; border: none;"></iframe>
+                </div>
+            </div>
+            <div id="side">
+                <h1 class="center">Playlists</h1>
+                <iframe style="border-radius: 12px; border: none;" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX7ZHn4SQHDIn?utm_source=generator" height="1000" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <h2 class="center">My Favorite</h2>
+                <iframe style="border-radius:12px; border: none;" src="https://open.spotify.com/embed/album/7ynKAohxfwPUZzvU8f1p1U?utm_source=generator" height="300" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div id="sidetoo">
+                <h1 class="center" style="left: 40px; position:relative">ITZY</h1>
+                <a href="#yeji"><img src="yeji.jpeg" alt="Leader Yeji" style="border-radius: 60px; object-fit: cover; object-position: 60% 20%; left: 30px; position: relative;" height="100" class="center"></a><br>
+                <a href="#lia"><img src="lia.jpeg" alt="Lia" style="border-radius: 60px; object-fit: cover; object-position: 60% 20%; left: 30px; position: relative;" height="100" class="center"></a><br>
+                <a href="#ryujin"><img src="ryujin.jpeg" alt="Ryujin" style="border-radius: 60px; object-fit: cover; object-position: 60% 20%; left: 30px; position: relative;" height="100" class="center"></a><br>
+                <a href="#chaeryeong"><img src="chaeryeong.jpeg" alt="Chaeryeong" style="border-radius: 60px; object-fit: cover; object-position: 60% 20%; left: 30px; position: relative;" height="100" class="center"></a><br>
+                <a href="#yuna"><img src="yuna.jpeg" alt="Yuna" style="border-radius: 60px; object-fit: cover; object-position: 60% 20%; left: 30px; position: relative;" height="100" class="center"></a><br>
+                <h3 style="left: 30px; position: relative;">Credits to:</h3>
+                <a href="https://kprofiles.com/itzy-members-profile/" style="text-decoration: none; color: rgb(141, 87, 141)"><p style="left: 30px; position: relative;">https://kprofiles.com/itzy-members-profile/</p></a>
+            </div>
+        </div>
+    </body>
+</html>

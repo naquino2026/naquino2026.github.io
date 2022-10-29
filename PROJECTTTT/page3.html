@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>TWICE</title>
+        <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Yeseva+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <style>
+            body {
+                padding: 10px;
+                margin: 10px;
+                background-color: rgb(250, 239, 248);
+                box-sizing: border-box;
+                font-family: 'Yeseva One', cursive;;
+            }
+
+            p {
+                font-family: 'Source Sans Pro', sans-serif;
+            }
+
+            .menu-bar {
+                background-color: #faf2f9;
+                text-align: center;
+                border-style: double;
+            }
+
+            .menu-bar ul {
+                display: inline-flex;
+                list-style: none;
+                color: black; 
+            }
+            .menu-bar ul li {
+                width: 170px;
+                margin: 15px;
+                padding: 10px;
+            }
+
+            .menu-bar ul li a{
+                text-decoration: none;
+                color: black;
+            }
+
+            .active, .menu-bar ul li:hover{
+                background-color: #e0c1dd;
+                border-radius: 5px;
+                text-align: center;
+            }
+
+            .activetoo{
+                background-color: #c791c2;
+                border-radius: 5px;
+                text-align: center;
+            }
+
+            .menu-bar .fa{
+                margin-right: 8px;
+            }
+
+            .sub-menu-1 {
+                display: none;   
+            }
+
+            .menu-bar ul li:hover .sub-menu-1{
+                display: block;
+                position: absolute;
+                background-color: #c9b5c8;
+                font-family: 'Roboto Condensed', sans-serif;
+                font-size: 17px;
+            }
+
+            .menu-bar ul li:hover .sub-menu-1 ul {
+                display: block;
+                margin-left: -40px;
+                text-align: left;
+            }
+
+            .menu-bar ul li:hover .sub-menu-1 ul li{
+                width: 150px;
+                padding: 10px;
+                border-bottom: 1px dotted #fff;
+                background: transparent;
+                border-radius: 0;
+                text-align: left;
+            }
+
+            .menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+                border-bottom: none;
+            }
+
+            .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+                color:#a3679e;
+            }
+
+            h1{
+                font-family: 'Yeseva One', cursive;
+            }
+
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+
+            #main {
+                height: 937px;
+            }
+
+            #article {
+                width: 66%;
+                height: 937px;
+                float: left;
+            }
+            
+            #side {
+                width: 20%;
+                height: 937px;
+                float: left;
+            }
+
+            #sidetoo{
+                width: 13%;
+                height: 937px;
+                float: left;
+            }
+
+            #twice{
+                width: 50%;
+                display: inline-block;
+                vertical-align: middle;
+            }
+            
+            #song{
+                width: 50%;
+                position: relative;
+                left: calc(50%);
+                top: -1977px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="menu-bar">
+            <img src="logo.png" style="height: 50px; width: auto; bottom: -20px; position: relative;" alt="logo">
+            <ul>
+                <li class="active"><a href="index.html"><i class="fa fa-home"></i>Homepage</a></li>
+                <li class="activetoo"><a href="page2.html"><i class="fa fa-microphone"></i>About the Author</a></li>
+                <li class="active"><a href="page3.html"><i class="fa fa-microphone"></i>TWICE</a></li>
+                <li class="activetoo"><a href="page4.html"><i class="fa fa-microphone"></i>ITZY</a></li>
+                <li class="active"><a href="page5.html"><i class="fa fa-microphone"></i>DAY6</a></li>
+            </ul>
+        </div><br>
+
+        <a href="https://twice.jype.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Logo_of_TWICE.svg/640px-Logo_of_TWICE.svg.png" style="height: 150px; width: auto;" class="center" alt="Twice logo"></a>
+        <div id="main">
+            <div id="article">
+                <h1>TWICE</h1>
+                <blockquote><p style="text-indent: 50px;">TWICE is a girl group consisting of 9 members: Jihyo, Nayeon, Jeongyeon, Momo, Sana, Mina, Dahyun, Chaeyoung, and Tzuyu. The group debuted on October 20, 2015, through the survival show Sixteen, under JYP Entertainment. As of February 2020, JYPE is partnering with Republic Records to help promote TWICE worldwide.</p></blockquote>
+                <h2>Who are the TWICE members?</h2>
+                <div id="twice">
+                    <h3 style="text-indent: 20px;" id="jihyo">Jihyo</h3>
+                    <blockquote><p>Jihyo's birth name is Park Ji Soo but she legalized here name to Park Ji Hyo. She is the leader and main vocalist of TWICE. Her birthday is on February 1, 1997. She was born in Guri, Gyeonggi-do, South Korea. Her hobbies are web-surfing and reading webtoons. Lastly, she is also the TWICE member who trained for the longest period of time (10 years)</p></blockquote>
+                    
+                    <h3 style="text-indent: 20px;" id="nayeon">Nayeon</h3>
+                    <blockquote><p>Nayeon's birth name is Im Na Yeon. She is the lead vocalist, lead dancer, center, and face of the group Twice. Her birthday is on September 22, 1995. Nayeon's representative color is sky blue and her favorite color is purple. She is also very close friends with BLACKPINK's Jisoo and Jennie. Lastly, she also debuted as a solo artist with the title track "POP!".</p></blockquote>
+                    
+                    <h3 style="text-indent: 20px;" id="jeong">Jeongyeon</h3>
+                    <blockquote><p>Jeongyeon's birth name is Yoo Kyung Wan but she legalized her name to Yoo Jeong Yeon. She is one of the lead vocalists of Twice and she was born on November 1, 1996. She was born in Suwon, South Korea. A fun fact is that she changed her birth name because she was teased in 3rd grade because her name sounded like a boy's name. She was actually accepted into JYP and SM in the same day, but chose JYP Entertainment.</p></blockquote>
+                    
+                    <h3 style="text-indent: 20px;" id="momo">Momo</h3>
+                    <blockquote><p>Momo's birth name is Hirai Momo. She is the main dancer, sub-vocalist, and sub-rapper of TWICE. She was born on November 9, 1996. She was born in Kyotanabe, Kyoto, Japan and has an older sister, named Hana. Momo has the most confidence in dancing to urban and hip-hop. She is also a big food lover, particularly jokbal, which is a Korean dish consisting of pig's trotters cooked with soy sauce and spices.</p></blockquote>
+                    
+                    <h3 style="text-indent: 20px;" id="sana">Sana</h3>
+                    <blockquote><p>Sana's birth name is Minatozaki Sana. She is one of the sub-vocalists of TWICE. She was born on December 29, 1996 in Tennoji-ku, Osaka, Japan. She got cast when she was shopping with her friends and passed the audition on April 13, 2012. She is also very clumsy and has an optimistic personality. Lastly, her hobby is collecting perfumes and body mists.</p></blockquote>
+                    
+                    <h3 style="text-indent: 20px;" id="mina">Mina</h3>
+                    <blockquote><p>Mina's birth name is Myoui Mina. Mina also used to have American citizenship with the English name of Sharon but she gave it up. She is one of the main dancers and sub-vocalists of TWICE. She was born on March 24, 1997 in San Antonio, Texas, United States. Mina is actually the member who had the shortest training period before debuting as a member of TWICE. Moreover, she learned ballet for 11 years.</p></blockquote>
+                        
+                    <h3 style="text-indent: 20px;" id="dahyun">Dahyun</h3>
+                    <blockquote><p>Dahyun's birth name is Kim Da hyun. She is one of the lead rappers and sub-vocalists of TWICE. She was born on May 28, 1998 in Seongnam, Gyeonggi-do, South Korea. She passed the audition on July 7, 2012, and officially became a trainee. A fun fact is that she actually auditioned for SM, JYP, and YG at the same time and got accepted by all 3 companies. Her nickname is 'Tofu' because of her white skin. </p></blockquote>
+                        
+                    <h3 style="text-indent: 20px;" id="chaeyoung">Chaeyoung</h3>
+                    <blockquote><p>Chaeyoung's birth name is Son Chae Young. She is one of the main rappers and sub-vocalists of TWICE. She was born on April 23, 1999 in Seoul, South Korea. She likes healthy foods like veggies but doesn't like sweets because she grew up with her grandmother when she was young. However, she doesn't like beans and is often teased by Nayeon because of that.</p></blockquote>
+                        
+                    <h3 style="text-indent: 20px;" id="tzuyu">Tzuyu</h3>
+                    <blockquote><p>Tzuyu's birth name is Chou Tzuyu while her English name is Sally. She is the visual & maknae and also one of the lead dancers and sub-vocalists of TWICE. She was born on June 14, 1999 in Tainan, Taiwan. Tzuyu likes Yoda from Star Wars and can impersonate him well, thus she is also nicknamed Yoda. Tzuyu is also the tallest member in TWICE however, when asked, she said she wanted to be reborn as a short girl if it were possible.</p></blockquote>
+                </div>
+                <div class="vl"></div>
+
+                <div id="song">
+                <h2>My favorite songs from TWICE</h2>
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/kN0oibHnWJ0" title="(Full Focused) TWICE 'Alcohol-Free' 4K | BE ORIGINAL" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px; margin-bottom: 10px; border: none;"></iframe>
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/Oc8iT4WYw7A" title="[#MGMA] TWICE_Dance The Night Away" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="border-radius: 10px; margin-bottom: 10px; border: none;" allowfullscreen></iframe>
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/y9DxUmPM8pQ" title="[TWICE - What is Love?] Comeback Stage | M COUNTDOWN 180412 EP.566" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="border-radius: 10px; margin-bottom: 10px; border: none;" allowfullscreen></iframe>
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/WEiyz8rUuEQ" title="[TWICE - Feel Special] 2019 MAMA Nominees Special│ M COUNTDOWN 191121 EP.643" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px; margin-bottom: 10px; border: none;"></iframe>
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/w7bBtuj3C7A" title="(TWICE) - Heart Shaker (Stage mix)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="border-radius: 10px; margin-bottom: 10px; border: none;" allowfullscreen></iframe>
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/400Ki4hG6kw" title="[KCON 2019 JAPAN] TWICE - BDZ KCON 2019 JAPAN x M COUNTDOWN" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="border-radius: 10px; margin-bottom: 10px; border: none;" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div id="side">
+                <h1 class="center">Playlists</h1>
+                <iframe style="border-radius: 12px; border: none;" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWYlCv3D85m6m?utm_source=generator" height="1000" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <h2 class="center">My Favorite</h2>
+                <iframe style="border-radius:12px; border: none;" src="https://open.spotify.com/embed/album/5052Ip89wdW8EGdpjEpNeq?utm_source=generator" height="600" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div id="sidetoo">
+                <h1 class="center" style="left: 25px; position:relative">TWICE</h1>
+                <a href="#jihyo"><img src="jihyo.jpeg" alt="Leader Jihyo" style="border-radius: 60px; object-fit: cover; object-position: 60% 20%; left: 30px; position: relative;" height="100" class="center"></a><br>
+                <a href="#nayeon"><img src="nayeon.jpeg" alt="nayeon" style="border-radius: 60px; object-fit: cover; object-position: 60% 20%; left: 30px; position: relative;" height="100" class="center"></a><br>
+                <a href="#jeong"><img src="jeongyeon.jpeg" alt="jeongyeon" style="border-radius: 60px; object-fit: cover; object-position: 60% 20%; left: 30px; position: relative;" height="100" class="center"></a><br>
+                <a href="#momo"><img src="momo.jpeg" alt="momo" style="border-radius: 60px; object-fit: cover; object-position: 60% 20%; left: 30px; position: relative;" height="100" class="center"></a><br>
+                <a href="#sana"><img src="sana.jpeg" alt="sana" style="border-radius: 60px; object-fit: cover; object-position: 60% 20%; left: 30px; position: relative;" height="100" class="center"></a><br>
+                <a href="#mina"><img src="mina.jpeg" alt="mina" style="border-radius: 60px; object-fit: cover; object-position: 60% 20%; left: 30px; position: relative;" height="100" class="center"></a><br>
+                <a href="#dahyun"><img src="dahyun.jpeg" alt="dahyun" style="border-radius: 60px; object-fit: cover; object-position: 60% 20%; left: 30px; position: relative;" height="100" class="center"></a><br>
+                <a href="#chaeyoung"><img src="chae.jpeg" alt="chaeyoung" style="border-radius: 60px; object-fit: cover; object-position: 60% 60%; left: 30px; position: relative;" height="100" class="center"></a><br>
+                <a href="#tzuyu"><img src="tzuyu.jpeg" alt="tzuyu" style="border-radius: 60px; object-fit: cover; object-position: 40% 20%; left: 30px; position: relative;" height="100" class="center"></a><br>
+                <h3 style="left: 30px; position: relative;">Credits to:</h3>
+                <a href="https://kprofiles.com/twice-members-profile/" style="text-decoration: none; color: rgb(141, 87, 141)"><p style="left: 30px; position: relative;">https://kprofiles.com/twice-members-profile/</p></a>
+            </div>
+        </div>
+    </body>
+</html>
